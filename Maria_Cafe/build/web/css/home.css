@@ -1,0 +1,284 @@
+body{
+    top:0;
+    margin: 0;
+    background-image: url('../images/1.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;/*ảnh full màn hình*/
+    background-attachment: fixed;
+}
+.container{
+    width: 100%;
+    /* border: 1px solid white; */
+    max-width: 978px;
+    /* height: 1000px; */
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 16px;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.header{
+    padding:1rem;
+    padding-top: 2rem;
+    background-color: #f68c1f;
+}
+.title{
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 400;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 6px 0;
+}
+.header-description{
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 22px;
+    color: white;
+    padding: 2px 0;
+    margin-bottom: 1rem;
+}
+
+.nav-bar{
+    background-color: #890400;
+}
+
+.nav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    list-style: none;/*bỏ dấu chấm*/
+    line-height: 35px;
+}
+.nav-link{
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+}
+.active{
+    font-weight: bold;
+}
+
+.main{
+    padding-top: 30.4px;
+    padding-left: 22px;
+    display: flex;
+    background-color: white;
+    padding-bottom: 65px;
+}
+.main-left{
+    /* border: 1px solid white; */
+    width: 740px;
+    padding: 20px 20px 20px 0;
+}
+.main-right{
+    /* border: 1px solid white; */
+    width: 240px;
+}
+.article{
+    display: flex;
+    padding-left: 22px;
+    padding-top: 22px;
+}
+.image img{
+    width: 159.14px;
+    height: 170.4;
+    border-radius: 10px;
+}
+.article-description{
+    /* border: 1px solid black; */
+    margin-left: 20px;
+}
+
+ .article-tilte{
+    font-family: Georgia, palatino !important; 
+    font-size: 24px !important;
+    margin-top: 0px;
+}
+
+.article-description p{
+    font-size: 16px;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    line-height: 25px;
+}
+
+.share-box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+.share-header{
+    font-size:22px;
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+    padding: 11px 15px;
+}
+.share-content{
+    padding: 5.5px 15px 11px;
+    display: flex;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.share-content img{
+    margin-right: 8px;
+}
+
+.top-3-listed{
+    margin-left: 22px;
+    /* border: 1px solid black; */
+    padding-top: 46px;
+    display: flex;
+}
+
+.product{
+    width: 50%;
+    /* border:1px solid black; */
+    padding: 0 5px;
+}
+.top-3-listed img{
+    width: 100%;
+}
+.top-3-header{
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+}
+.top-3-content{
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 15px;
+}
+
+.contact{
+    margin-left: 22px;
+    margin-top: 68px;
+}
+.visit{
+    font-family: times, 'times new roman';
+    font-size: 24px;
+}
+.contact p{
+    font-size: 16px;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+}
+
+.regard{
+    margin-left: 22px;
+    margin-top: 70px;
+}
+
+.signature{
+    font-family: 'Dancing Script',serif;
+    font-size: 40px;
+    line-height: 60px;
+}
+.footer{
+    background-color: white;
+    height: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+hr{
+    height: 1px;
+    border: 0; border-top: 1.5px solid #ccc;
+    margin: 0 2em; padding: 0; 
+}
+.page-counter{
+    float: right;
+    display: inline-flex;
+    padding-bottom: 0;
+    margin-top: 50px;
+    margin-right: 2rem;
+}
+.number{
+    border: solid 0 #000;
+    font-size: 14.4px;
+    font-family: Arial,Helvetica,Arial,sans-serif;
+    line-height: 14.4px;
+    padding: 2px 2px 1px;
+    margin: 3px 2px 0 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px #595959;
+    text-align: center;
+    font-weight: 700;
+    width: 10px;
+}
+
+
+/* About my cake */
+.about{
+    padding-left: 22px;
+}
+.about-title{
+    font-size: 28px;
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+}
+.image-right{
+    float: right;
+    width: 332.76px;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
+.about-content p{
+    line-height: 23px;
+}
+
+
+
+
+/* Find Maria's Cafe */
+
+.find-title{
+    font-size: 28px;
+}
+.contact-and-schedule{
+    border-bottom: 3px dotted #ccc;
+    margin-bottom: 1rem;
+}
+.contact-and-schedule{
+    display: flex;
+}
+.find-contact{
+    width: 50%;
+}
+.find-schedule{
+    width: 50%;
+}
+.find-contact-header, .schedule-header{
+    font-size: 22px;
+    margin-top: 32px;
+}
+.find-contact-header{
+    margin-bottom: 27px;
+}
+.detail{
+    margin-bottom: 32px;
+}
+.tel{
+    margin-left: 5rem;
+    text-decoration: underline;
+}
+.email{
+    margin-left: 4rem;
+    text-decoration: underline;
+}
+.map img{
+    width: 100%;
+}
+
